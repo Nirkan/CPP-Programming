@@ -6,10 +6,10 @@ using namespace std;
 
 int main()
 {
-    //int age;
+    int age;
     string name;
 
-    // cout << "Enter your age : ";
+    cout << "Enter your age : ";
 
     cout << "Enter your name : ";
 
@@ -17,7 +17,7 @@ int main()
 
     getline(cin, name) ;   // For string
 
-    // cout << "you are " << age << "  years old" << endl;
+    cout << "you are " << age << "  years old" << endl;
 
     cout << "Hello" << name;
 
